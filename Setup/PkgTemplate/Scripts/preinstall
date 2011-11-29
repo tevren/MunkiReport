@@ -1,0 +1,24 @@
+#!/bin/bash
+
+
+if [ -z "$3" ]; then
+    TARGET=""
+elif [ "$3" == "/" ]; then
+    TARGET=""
+else
+    TARGET="$3"
+fi
+
+
+LAUNCHDAEMON="/Library/LaunchDaemons/com.googlecode.munkireport.plist"
+
+if [ -z "$TARGET" ]; then
+    if [ -e "$LAUNCHDAEMON" ]; then
+        launchctl unload "$LAUNCHDAEMON"
+    fi
+fi
+
+# TODO: Database backup/schema migration.
+
+
+exit 0

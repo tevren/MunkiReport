@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:py="http://genshi.edgewall.org/"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <xi:include href="master.html" />
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" py:replace="''"/>
+  <title>MunkiReport</title>
+</head>
+
+<body>
+<?python
+    sort_flip = u'false' if reverse else u'true'
+    sort_keep = u'true' if reverse else u'false'
+    sort_div = u'order_by=div&reverse=' + (sort_flip if order_by == u'div' else sort_keep)
+    triangle = u'\u25bc' if reverse else u'\u25b2'
+    triangle_div = triangle if order_by == u'div' else u''
+?>
+
+  <h1>Munki Divisions </h1>
+  
+  <table class="clientlist">
+    <tbody>
+          <thead>
+      <tr>
+	<th><a class="sortheader" href="?${sort_div}">Division     ${triangle_div}</a></th>
+      </tr>
+    </thead>
+      <tr py:for="division in divisions">
+	<?python
+           url = tg.url('/view/division/%s' % division)
+         ?>
+        <td>
+          <py:choose test="division == None">
+            <py:when test="False">
+              <a href="${url}">${division}</a>
+            </py:when>
+          </py:choose>
+	  </td>
+	</tr>
+    </tbody>
+  </table>
+
+
+</body>
+</html>

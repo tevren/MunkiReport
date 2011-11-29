@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.googlecode.munkireport</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>UserName</key>
+	<string>munkireport</string>
+	<key>KeepAlive</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/MunkiReport/bin/server.sh</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/Library/Application Support/MunkiReport/Logs/error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Library/Application Support/MunkiReport/Logs/error.log</string>
+</dict>
+</plist>

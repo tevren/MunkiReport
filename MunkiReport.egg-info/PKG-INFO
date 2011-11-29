@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: MunkiReport
+Version: 0.7.0.175
+Summary: Report viewer for Munki
+Home-page: http://code.google.com/p/munkireport/
+Author: Per Olofsson
+Author-email: per.olofsson@gu.se
+License: Apache License 2.0
+Description: MunkiReport gathers Munki reports from your clients, showing you errors and current activity, as well as details for individual clients.
+Platform: UNKNOWN

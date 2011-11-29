@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:py="http://genshi.edgewall.org/"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <xi:include href="master.html" />
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" py:replace="''"/>
+  <title>MunkiReport</title>
+  <script type="text/javascript" charset="utf-8">
+
+function verify_password() {
+  return true;
+  alert("aloha");
+  return false;
+}
+
+  </script>
+  <style type="text/css">
+
+.pwdform {
+  margin-top: 0.5em;
+}
+
+.pwdform label {
+  width: 10em;
+  display: inline-block;
+}
+
+.pwdform input {
+  height: 12px;
+}
+
+  </style>
+</head>
+
+<body>
+  <py:choose test="num_users">
+    <py:when test="0">
+      
+      <h1>Welcome to MunkiReport</h1>
+      To get started, please enter a password for the munkiadmin user:
+      
+      <form action="${tg.url('/reset_munkiadminadmin_password')}"
+            method="post"
+            accept-charset="utf-8"
+            onsubmit="return verify_password();">
+        
+        <div class="pwdform">
+          <label for="password">Password:</label>
+          <input type="password" id="password"        name="password"        size="20" maxlength="32" />
+        </div>
+        
+        <div class="pwdform">
+          <label for="password_verify">Verify password:</label>
+          <input type="password" id="password_verify" name="password_verify" size="20" maxlength="32" />
+        </div>
+        
+        <div class="pwdform">
+          <button type="submit">
+            Set password
+          </button>
+        </div>
+        
+      </form>
+      
+    </py:when>
+    <py:otherwise>
+      
+      <ul>
+        <li><a href="${tg.url('/view')}">View Reports</a> (requires login)</li>
+      </ul>
+      
+    </py:otherwise>
+  </py:choose>
+</body>
+</html>

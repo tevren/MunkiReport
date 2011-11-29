@@ -1,0 +1,719 @@
+TMunkiReport
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/MunkiReportPref.tiff MunkiReportPref.tiff
+cCompileXIB /Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/MunkiReportPref.xib
+cCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-error.tiff status-error.tiff
+cCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-running.tiff status-running.tiff
+cCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-unknown.tiff status-unknown.tiff
+cCpResource mrserver.py build/Release/MunkiReport.prefPane/Contents/Resources/mrserver.py
+cCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-stopped.tiff status-stopped.tiff
+cProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch.gch MunkiReport_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch.gch MunkiReport_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReportPref.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/RegexKitLite.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/UsersDataSource.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReportPref.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/RegexKitLite.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/UsersDataSource.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport normal i386
+cLd /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport normal x86_64
+cCreateUniversalBinary /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport normal "x86_64 i386"
+cGenerateDSYMFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane.dSYM /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport
+cTouch /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E779A3200000000000000EE
+t1316461106
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004C23BD2900000000000017ED
+t1277410601
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004C239DAA0000000000007AC8
+t1277402538
+s31432
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+c000000004C239DAA0000000000003C5C
+t1277402538
+s15452
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004C239DAA000000000000B3BB
+t1277402538
+s46011
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004C23AA040000000000001C87
+t1277405700
+s7303
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004C23AA040000000000000EA7
+t1277405700
+s3751
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004C23AA040000000000001E48
+t1277405700
+s7752
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004C23AA04000000000000205E
+t1277405700
+s8286
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSGarbageCollector.h
+c000000004C23AA050000000000000CC3
+t1277405701
+s3267
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h
+c000000004C23AA0500000000000005AF
+t1277405701
+s1455
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004C23AA0500000000000021D3
+t1277405701
+s8659
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004C23AA05000000000000049D
+t1277405701
+s1181
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h
+c000000004C23AA0500000000000008DD
+t1277405701
+s2269
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004C23AA060000000000005F75
+t1277405702
+s24437
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/PreferencePanes.framework/Headers/PreferencePanes.h
+c000000004C23CD0D0000000000000098
+t1277414669
+s152
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004D5B2E2B00000000000671F4
+t1297821227
+s422388
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SecurityInterface.framework/Headers/SFAuthorizationView.h
+c000000004C23BE290000000000001959
+t1277410857
+s6489
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SecurityInterface.framework/SecurityInterface
+c000000004D5B2E2B000000000001ABD4
+t1297821227
+s109524
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/AvailabilityMacros.h
+c000000004A11A9B30000000000006724
+t1242671539
+s26404
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004A11E8210000000000002407
+t1242687521
+s9223
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/TargetConditionals.h
+c000000004A11A9B300000000000031E9
+t1242671539
+s12777
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/dlfcn.h
+c000000004C74B5950000000000000B1C
+t1282717077
+s2844
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/OSAtomic.h
+c000000004BBD2CE90000000000002519
+t1270689001
+s9497
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach-o/loader.h
+c000000004C74B58F000000000000EFD9
+t1282717071
+s61401
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/objc/objc-runtime.h
+c000000004C239B2C0000000000000032
+t1277401900
+s50
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/objc/runtime.h
+c000000004C239B2C000000000000530A
+t1277401900
+s21258
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdint.h
+c000000004DFA706800000000000018EF
+t1308258408
+s6383
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h
+c000000004DD0AF080000000000000D03
+t1305521928
+s3331
+i"syslimits.h"
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h
+c000000004DD0AF0800000000000010DD
+t1305521928
+s4317
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h
+c000000004DD0ADAD0000000000000155
+t1305521581
+s341
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E6691F50000000000006560
+t1315344885
+s25952
+
+N/System/Library/Frameworks/PreferencePanes.framework/PreferencePanes
+c000000004E8E66BD0000000000061F20
+t1317955261
+s401184
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/InfoPlist.strings
+c000000004ECD0FF20000000000000114
+t1322061810
+s276
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/MunkiReportPref.xib
+c000000004ECD0FF200000000000152D1
+t1322061810
+s86737
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.h
+c000000004ECD0FF20000000000000691
+t1322061810
+s1681
+i<PreferencePanes/PreferencePanes.h>
+i<SecurityInterface/SFAuthorizationView.h>
+i"UsersDataSource.h"
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m
+c000000004ECD0FF20000000000002DBA
+t1322061810
+s11706
+i"MunkiReportPref.h"
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.tiff
+c000000004ECD0FF2000000000000075E
+t1322061810
+s1886
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReport_Prefix.pch
+c000000004ECD0FF200000000000000C2
+t1322061810
+s194
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.h
+c000000004ECD0FF20000000000004130
+t1322061810
+s16688
+i<Foundation/NSArray.h>
+i<Foundation/NSError.h>
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSRange.h>
+i<Foundation/NSString.h>
+i<limits.h>
+i<stdint.h>
+i<sys/types.h>
+i<TargetConditionals.h>
+i<AvailabilityMacros.h>
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m
+c000000004ECD0FF20000000000032498
+t1322061810
+s205976
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFString.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSError.h>
+i<Foundation/NSException.h>
+i<Foundation/NSNotification.h>
+i<Foundation/NSRunLoop.h>
+i<Foundation/NSGarbageCollector.h>
+i<objc/runtime.h>
+i<objc/objc-runtime.h>
+i<libkern/OSAtomic.h>
+i<mach-o/loader.h>
+i<AvailabilityMacros.h>
+i<dlfcn.h>
+i<string.h>
+i<stdarg.h>
+i<stdlib.h>
+i<stdio.h>
+i"RegexKitLite.h"
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.h
+c000000004ECD0FF20000000000000646
+t1322061810
+s1606
+i<Cocoa/Cocoa.h>
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m
+c000000004ECD0FF2000000000000331E
+t1322061810
+s13086
+i<CommonCrypto/CommonDigest.h>
+i"RegexKitLite.h"
+i"UsersDataSource.h"
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport.LinkFileList
+c000000004ECD14E100000000000001AA
+t1322063073
+s426
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReportPref.o
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/RegexKitLite.o
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/UsersDataSource.o
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport.LinkFileList
+c000000004ECD14E100000000000001B0
+t1322063073
+s432
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReportPref.o
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/RegexKitLite.o
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/UsersDataSource.o
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane.dSYM
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Info.plist
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/English.lproj/MunkiReportPref.nib
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/MunkiReportPref.tiff
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/mrserver.py
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-error.tiff
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-running.tiff
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-stopped.tiff
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-unknown.tiff
+t2
+s0
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/mrserver.py
+c000000004ECD0FF20000000000000F2A
+t1322061810
+s3882
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/status-error.tiff
+c000000004ECD0FF2000000000000027E
+t1322061810
+s638
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/status-running.tiff
+c000000004ECD0FF200000000000002A4
+t1322061810
+s676
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/status-stopped.tiff
+c000000004ECD0FF200000000000001DC
+t1322061810
+s476
+
+N/Users/am2507/Projects/munkireport/MunkiReportPrefPane/status-unknown.tiff
+c000000004ECD0FF20000000000000284
+t1322061810
+s644
+
+N/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch.gch
+t2
+s0
+
+NInfo.plist
+c000000004ECD0FF20000000000000421
+t1322061810
+s1057
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2f4f27614c7db441^e0674c614c7db441^---0#1#0#--18"Check dependencies
+
+CCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReportPref.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s343755877.850621
+e343755878.091696
+r1
+xCompileC
+xbuild/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReportPref.o
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m5dddd9654c7db441^d17717664c7db441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m0000000000000000^1445"CompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReportPref.o MunkiReportPref.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/MunkiReport.hmap -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/include -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources/i386 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReportPref.o
+
+CCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/RegexKitLite.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s343755877.850630
+e343755878.755217
+r1
+xCompileC
+xbuild/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/RegexKitLite.o
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_getCachedRegex’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:835: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:846: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_replaceString’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1529: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1535: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1551: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1582: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1583: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_clearStringCache’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1669: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘-[RKLBlockEnumerationHelper finalize]’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1902: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘-[RKLBlockEnumerationHelper dealloc]’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1912: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_performEnumerationUsingBlock’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 6 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 7 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 8 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 9 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 10 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m2bddd9654c7db441^df53c1664c7db441^-3257"/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_getCachedRegex’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:835: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:846: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_replaceString’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1529: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1535: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1551: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1582: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1583: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_clearStringCache’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1669: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘-[RKLBlockEnumerationHelper finalize]’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1902: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘-[RKLBlockEnumerationHelper dealloc]’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1912: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_performEnumerationUsingBlock’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 6 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 7 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 8 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 9 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 10 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type15(21%IDEActivityLogMessage2@84"Passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type-343755877#105#165#-1#-23%DVTTextDocumentLocation3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^834#18446744073709551615#834#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#270#162#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^845#18446744073709551615#845#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@84"Passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type-343755877#536#166#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1528#18446744073709551615#1528#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@84"Passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type-343755877#702#166#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1534#18446744073709551615#1534#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@84"Passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type-343755877#868#166#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1550#18446744073709551615#1550#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#1034#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1581#18446744073709551615#1581#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#1197#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1582#18446744073709551615#1582#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#1467#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1668#18446744073709551615#1668#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#1754#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1901#18446744073709551615#1901#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#2040#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1911#18446744073709551615#1911#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@88"Passing argument 6 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#2322#170#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@88"Passing argument 7 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#2492#170#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@88"Passing argument 8 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#2662#170#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@88"Passing argument 9 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#2832#170#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@89"Passing argument 10 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#3002#171#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1433"CompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/RegexKitLite.o RegexKitLite.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/MunkiReport.hmap -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/include -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources/i386 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/RegexKitLite.o
+
+CCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/UsersDataSource.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s343755877.850636
+e343755878.136970
+r1
+xCompileC
+xbuild/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/UsersDataSource.o
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.me3ddd9654c7db441^060f23664c7db441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m0000000000000000^1445"CompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/UsersDataSource.o UsersDataSource.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/MunkiReport.hmap -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/include -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources/i386 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/UsersDataSource.o
+
+CCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReportPref.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s343755877.757620
+e343755878.082098
+r1
+xCompileC
+xbuild/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReportPref.o
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m4609c2654c7db441^3a0515664c7db441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m0000000000000000^1455"CompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReportPref.o MunkiReportPref.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/MunkiReport.hmap -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/include -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources/x86_64 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.m -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReportPref.o
+
+CCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/RegexKitLite.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s343755877.757623
+e343755878.847298
+r1
+xCompileC
+xbuild/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/RegexKitLite.o
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_getCachedRegex’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:835: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:846: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_replaceString’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1529: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1535: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1551: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1582: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1583: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_clearStringCache’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1669: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘-[RKLBlockEnumerationHelper finalize]’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1902: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘-[RKLBlockEnumerationHelper dealloc]’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1912: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_performEnumerationUsingBlock’:
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 6 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 7 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 8 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 9 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+o/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 10 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0b0bc2654c7db441^8ae7d8664c7db441^-3257"/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_getCachedRegex’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:835: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:846: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_replaceString’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1529: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1535: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1551: warning: passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1582: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1583: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_clearStringCache’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1669: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘-[RKLBlockEnumerationHelper finalize]’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1902: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘-[RKLBlockEnumerationHelper dealloc]’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:1912: warning: passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m: In function ‘rkl_performEnumerationUsingBlock’:/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 6 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 7 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 8 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 9 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m:2065: warning: passing argument 10 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type15(21%IDEActivityLogMessage2@84"Passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type-343755877#105#165#-1#-23%DVTTextDocumentLocation3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^834#18446744073709551615#834#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#270#162#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^845#18446744073709551615#845#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@84"Passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type-343755877#536#166#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1528#18446744073709551615#1528#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@84"Passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type-343755877#702#166#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1534#18446744073709551615#1534#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@84"Passing argument 1 of ‘rkl_realloc’ discards qualifiers from pointer target type-343755877#868#166#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1550#18446744073709551615#1550#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#1034#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1581#18446744073709551615#1581#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#1197#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1582#18446744073709551615#1582#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#1467#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1668#18446744073709551615#1668#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#1754#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1901#18446744073709551615#1901#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@81"Passing argument 1 of ‘rkl_free’ discards qualifiers from pointer target type-343755877#2040#163#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1911#18446744073709551615#1911#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@88"Passing argument 6 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#2322#170#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@88"Passing argument 7 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#2492#170#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@88"Passing argument 8 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#2662#170#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@88"Passing argument 9 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#2832#170#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@89"Passing argument 10 of ‘rkl_makeFindAll’ discards qualifiers from pointer target type-343755877#3002#171#-1#-3@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^2064#18446744073709551615#2064#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m0000000000000000^1443"CompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/RegexKitLite.o RegexKitLite.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/MunkiReport.hmap -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/include -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources/x86_64 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/RegexKitLite.m -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/RegexKitLite.o
+
+CCompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/UsersDataSource.o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s343755877.757627
+e343755878.123632
+r1
+xCompileC
+xbuild/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/UsersDataSource.o
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.mee09c2654c7db441^c6a41f664c7db441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m0000000000000000^1455"CompileC build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/UsersDataSource.o UsersDataSource.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/MunkiReport.hmap -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/include -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources/x86_64 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/UsersDataSource.m -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/UsersDataSource.o
+
+CCompileXIB /Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/MunkiReportPref.xib
+s343755873.320775
+e343755874.701661
+r1
+xCompileXIB
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/MunkiReportPref.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/MunkiReportPref.xibd63552614c7db441^779fb3624c7db441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/MunkiReportPref.xib0000000000000000^540"CompileXIB English.lproj/MunkiReportPref.xib    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/English.lproj/MunkiReportPref.nib /Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/MunkiReportPref.xib --sdk /Developer/SDKs/MacOSX10.6.sdk
+
+CCopyStringsFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s343755873.320322
+e343755873.324054
+r1
+xCopyStringsFile
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings9c1452614c7db441^f1f452614c7db441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/English.lproj/InfoPlist.strings0000000000000000^445"CopyStringsFile build/Release/MunkiReport.prefPane/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings
+
+CCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/MunkiReportPref.tiff MunkiReportPref.tiff
+s343755873.320331
+e343755873.323076
+r1
+xCopyTiffFile
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/MunkiReportPref.tiff
+xMunkiReportPref.tiff
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Copy MunkiReportPref.tiff8c1452614c7db441^42b452614c7db441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReportPref.tiff0000000000000000^334"CopyTiffFile build/Release/MunkiReport.prefPane/Contents/Resources/MunkiReportPref.tiff MunkiReportPref.tiff    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    builtin-copyTiff --outdir /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources -- MunkiReportPref.tiff
+
+CCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-error.tiff status-error.tiff
+s343755873.320789
+e343755873.325642
+r1
+xCopyTiffFile
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-error.tiff
+xstatus-error.tiff
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection22"Copy status-error.tiff452c52614c7db441^dd5d53614c7db441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/status-error.tiff0000000000000000^325"CopyTiffFile build/Release/MunkiReport.prefPane/Contents/Resources/status-error.tiff status-error.tiff    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    builtin-copyTiff --outdir /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources -- status-error.tiff
+
+CCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-running.tiff status-running.tiff
+s343755873.321892
+e343755873.329746
+r1
+xCopyTiffFile
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-running.tiff
+xstatus-running.tiff
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy status-running.tiff6c7c52614c7db441^dc6854614c7db441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/status-running.tiff0000000000000000^331"CopyTiffFile build/Release/MunkiReport.prefPane/Contents/Resources/status-running.tiff status-running.tiff    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    builtin-copyTiff --outdir /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources -- status-running.tiff
+
+CCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-stopped.tiff status-stopped.tiff
+s343755873.321961
+e343755873.330302
+r1
+xCopyTiffFile
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-stopped.tiff
+xstatus-stopped.tiff
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy status-stopped.tiffae8052614c7db441^588e54614c7db441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/status-stopped.tiff0000000000000000^331"CopyTiffFile build/Release/MunkiReport.prefPane/Contents/Resources/status-stopped.tiff status-stopped.tiff    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    builtin-copyTiff --outdir /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources -- status-stopped.tiff
+
+CCopyTiffFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-unknown.tiff status-unknown.tiff
+s343755873.321955
+e343755873.327849
+r1
+xCopyTiffFile
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/status-unknown.tiff
+xstatus-unknown.tiff
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy status-unknown.tiff427a52614c7db441^a6ed53614c7db441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/status-unknown.tiff0000000000000000^331"CopyTiffFile build/Release/MunkiReport.prefPane/Contents/Resources/status-unknown.tiff status-unknown.tiff    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    builtin-copyTiff --outdir /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources -- status-unknown.tiff
+
+CCpResource mrserver.py build/Release/MunkiReport.prefPane/Contents/Resources/mrserver.py
+s343755873.321962
+e343755873.331422
+r1
+xCpResource
+xmrserver.py
+xbuild/Release/MunkiReport.prefPane/Contents/Resources/mrserver.py
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release/MunkiReport.prefPane/Contents/Resources/mrserver.py7f8352614c7db441^6bd754614c7db441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources/mrserver.py00f4343fdeffdf42^447"CpResource mrserver.py build/Release/MunkiReport.prefPane/Contents/Resources/mrserver.py    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/am2507/Projects/munkireport/MunkiReportPrefPane/mrserver.py /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Resources
+
+CCreateUniversalBinary /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport normal "x86_64 i386"
+s343755879.031366
+e343755879.037595
+r1
+xCreateUniversalBinary
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport
+xnormal
+xx86_64 i386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Create universal binary /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReportb11508674c7db441^909f09674c7db441^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport00f4343fdeffdf42^594"CreateUniversalBinary build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport normal "x86_64 i386"    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    /usr/bin/lipo -create /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport -output /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport
+
+CGenerateDSYMFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane.dSYM /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport
+s343755879.044214
+e343755879.074097
+r1
+xGenerateDSYMFile
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane.dSYM
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Generating /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane.dSYMbf600b674c7db441^4df712674c7db441^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane.dSYM00f4343fdeffdf42^428"GenerateDSYMFile build/Release/MunkiReport.prefPane.dSYM build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    /Developer/usr/bin/dsymutil /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/MacOS/MunkiReport -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane.dSYM
+
+CLd /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport normal i386
+s343755878.762071
+e343755879.023942
+r1
+xLd
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Link /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport2c29c3664c7db441^582006674c7db441^---0#0#0#--867"Ld build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport normal i386    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -filelist /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport.LinkFileList -mmacosx-version-min=10.6 -licucore -framework Cocoa -framework PreferencePanes -framework Security -framework SecurityInterface -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/i386/MunkiReport
+
+CLd /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport normal x86_64
+s343755878.854436
+e343755879.024208
+r1
+xLd
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReportafcdda664c7db441^4d3206674c7db441^---0#0#0#--877"Ld build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport normal x86_64    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -filelist /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport.LinkFileList -mmacosx-version-min=10.6 -licucore -framework Cocoa -framework PreferencePanes -framework Security -framework SecurityInterface -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/Objects-normal/x86_64/MunkiReport
+
+CProcessInfoPlistFile /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Info.plist Info.plist
+s343755873.309076
+e343755873.312224
+r1
+xProcessInfoPlistFile
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Info.plist
+xInfo.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist98334f614c7db441^bbec4f614c7db441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/Info.plist0000000000000000^340"ProcessInfoPlistFile build/Release/MunkiReport.prefPane/Contents/Info.plist Info.plist    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane/Contents/Info.plist
+
+CProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch.gch MunkiReport_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s343755874.709260
+e343755877.749972
+r1
+xProcessPCH
+x/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch.gch
+xMunkiReport_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile MunkiReport_Prefix.pch8fa7b5624c7db441^0dfdbf654c7db441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReport_Prefix.pch0000000000000000^1401"ProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch.gch MunkiReport_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/MunkiReport.hmap -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/include -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources/x86_64 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReport_Prefix.pch -o /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-enkbjsxazqlavhfkuimkqupvamky/MunkiReport_Prefix.pch.gch
+
+CProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch.gch MunkiReport_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s343755874.709247
+e343755877.843219
+r1
+xProcessPCH
+x/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch.gch
+xMunkiReport_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile MunkiReport_Prefix.pch1ea6b5624c7db441^c2dbd7654c7db441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReport_Prefix.pch0000000000000000^1395"ProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch.gch MunkiReport_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/MunkiReport.hmap -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/include -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources/i386 -I/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/MunkiReport.build/Release/MunkiReport.build/DerivedSources -F/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/MunkiReport_Prefix.pch -o /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/MunkiReport_Prefix-fvupayxlwkbmohdfuknimzvrzyua/MunkiReport_Prefix.pch.gch
+
+CTouch /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane
+s343755879.082336
+e343755879.102249
+r1
+xTouch
+x/Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane9f2015674c7db441^882c1a674c7db441^---0#0#0#--215"Touch build/Release/MunkiReport.prefPane    cd /Users/am2507/Projects/munkireport/MunkiReportPrefPane    /usr/bin/touch -c /Users/am2507/Projects/munkireport/MunkiReportPrefPane/build/Release/MunkiReport.prefPane
+

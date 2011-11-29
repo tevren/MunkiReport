@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051F85CC131287F200745555 /* mrserver.py in Resources */ = {isa = PBXBuildFile; fileRef = 051F85CB131287F200745555 /* mrserver.py */; };
+		662C07B21310870800D78E3A /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 662C07B01310870800D78E3A /* RegexKitLite.h */; };
+		662C07B31310870800D78E3A /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 662C07B11310870800D78E3A /* RegexKitLite.m */; };
+		66867739130B1C2400D345DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66867737130B1C2400D345DA /* Security.framework */; };
+		6686773A130B1C2400D345DA /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66867738130B1C2400D345DA /* SecurityInterface.framework */; };
+		66B77367130DA32A0082C670 /* UsersDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B77365130DA32A0082C670 /* UsersDataSource.h */; };
+		66B77368130DA32A0082C670 /* UsersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B77366130DA32A0082C670 /* UsersDataSource.m */; };
+		66F012B4130C0363000B0DB3 /* status-error.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 66F012B0130C0363000B0DB3 /* status-error.tiff */; };
+		66F012B5130C0363000B0DB3 /* status-running.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 66F012B1130C0363000B0DB3 /* status-running.tiff */; };
+		66F012B6130C0363000B0DB3 /* status-stopped.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 66F012B2130C0363000B0DB3 /* status-stopped.tiff */; };
+		66F012B7130C0363000B0DB3 /* status-unknown.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 66F012B3130C0363000B0DB3 /* status-unknown.tiff */; };
+		8D202CEA0486D31800D8A456 /* MunkiReport_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* MunkiReport_Prefix.pch */; };
+		8D202CEB0486D31800D8A456 /* MunkiReportPref.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* MunkiReportPref.h */; };
+		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D202CEE0486D31800D8A456 /* MunkiReportPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F506C040013D9D8001CA16C8 /* MunkiReportPref.tiff */; };
+		8D202CEF0486D31800D8A456 /* MunkiReportPref.xib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* MunkiReportPref.xib */; };
+		8D202CF10486D31800D8A456 /* MunkiReportPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* MunkiReportPref.m */; };
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		051F85CB131287F200745555 /* mrserver.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = mrserver.py; sourceTree = "<group>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA20370C41700C91783 /* MunkiReport_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MunkiReport_Prefix.pch; sourceTree = "<group>"; };
+		662C07B01310870800D78E3A /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		662C07B11310870800D78E3A /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		66867737130B1C2400D345DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		66867738130B1C2400D345DA /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
+		66B77365130DA32A0082C670 /* UsersDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersDataSource.h; sourceTree = "<group>"; };
+		66B77366130DA32A0082C670 /* UsersDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersDataSource.m; sourceTree = "<group>"; };
+		66F012B0130C0363000B0DB3 /* status-error.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "status-error.tiff"; sourceTree = "<group>"; };
+		66F012B1130C0363000B0DB3 /* status-running.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "status-running.tiff"; sourceTree = "<group>"; };
+		66F012B2130C0363000B0DB3 /* status-stopped.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "status-stopped.tiff"; sourceTree = "<group>"; };
+		66F012B3130C0363000B0DB3 /* status-unknown.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "status-unknown.tiff"; sourceTree = "<group>"; };
+		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* MunkiReport.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunkiReport.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* MunkiReportPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MunkiReportPref.h; sourceTree = "<group>"; };
+		F506C03D013D9D7901CA16C8 /* MunkiReportPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MunkiReportPref.m; sourceTree = "<group>"; };
+		F506C040013D9D8001CA16C8 /* MunkiReportPref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MunkiReportPref.tiff; sourceTree = "<group>"; };
+		F506C043013D9D8C01CA16C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MunkiReportPref.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+				66867739130B1C2400D345DA /* Security.framework in Frameworks */,
+				6686773A130B1C2400D345DA /* SecurityInterface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* MunkiReportPrefPane */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = MunkiReportPrefPane;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				051F85CB131287F200745555 /* mrserver.py */,
+				66F012B0130C0363000B0DB3 /* status-error.tiff */,
+				66F012B1130C0363000B0DB3 /* status-running.tiff */,
+				66F012B2130C0363000B0DB3 /* status-stopped.tiff */,
+				66F012B3130C0363000B0DB3 /* status-unknown.tiff */,
+				8D202CF70486D31800D8A456 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F506C040013D9D8001CA16C8 /* MunkiReportPref.tiff */,
+				F506C042013D9D8C01CA16C8 /* MunkiReportPref.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				662C07B01310870800D78E3A /* RegexKitLite.h */,
+				662C07B11310870800D78E3A /* RegexKitLite.m */,
+				F506C03C013D9D7901CA16C8 /* MunkiReportPref.h */,
+				F506C03D013D9D7901CA16C8 /* MunkiReportPref.m */,
+				66B77365130DA32A0082C670 /* UsersDataSource.h */,
+				66B77366130DA32A0082C670 /* UsersDataSource.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66867737130B1C2400D345DA /* Security.framework */,
+				66867738130B1C2400D345DA /* SecurityInterface.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* MunkiReport.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA20370C41700C91783 /* MunkiReport_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D202CE90486D31800D8A456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CEA0486D31800D8A456 /* MunkiReport_Prefix.pch in Headers */,
+				8D202CEB0486D31800D8A456 /* MunkiReportPref.h in Headers */,
+				66B77367130DA32A0082C670 /* UsersDataSource.h in Headers */,
+				662C07B21310870800D78E3A /* RegexKitLite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D202CE80486D31800D8A456 /* MunkiReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "MunkiReport" */;
+			buildPhases = (
+				8D202CE90486D31800D8A456 /* Headers */,
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MunkiReport;
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = MunkiReportPrefPane;
+			productReference = 8D202CF80486D31800D8A456 /* MunkiReport.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Gothenburg";
+			};
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "MunkiReport" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* MunkiReportPrefPane */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* MunkiReport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */,
+				8D202CEE0486D31800D8A456 /* MunkiReportPref.tiff in Resources */,
+				8D202CEF0486D31800D8A456 /* MunkiReportPref.xib in Resources */,
+				66F012B4130C0363000B0DB3 /* status-error.tiff in Resources */,
+				66F012B5130C0363000B0DB3 /* status-running.tiff in Resources */,
+				66F012B6130C0363000B0DB3 /* status-stopped.tiff in Resources */,
+				66F012B7130C0363000B0DB3 /* status-unknown.tiff in Resources */,
+				051F85CC131287F200745555 /* mrserver.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF10486D31800D8A456 /* MunkiReportPref.m in Sources */,
+				66B77368130DA32A0082C670 /* UsersDataSource.m in Sources */,
+				662C07B31310870800D78E3A /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F506C042013D9D8C01CA16C8 /* MunkiReportPref.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506C043013D9D8C01CA16C8 /* English */,
+			);
+			name = MunkiReportPref.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MunkiReport_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = MunkiReport;
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MunkiReport_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = MunkiReport;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "MunkiReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "MunkiReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

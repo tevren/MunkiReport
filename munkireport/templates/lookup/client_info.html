@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:py="http://genshi.edgewall.org/"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" py:replace="''"/>
+  <title>MunkiReport</title>
+  <style type="text/css">
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-top: 3px;
+}
+
+td, th {
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", geneva, verdana, sans-serif;
+  text-align: left;
+}
+
+th {
+  padding: 0 0 0 0;
+}
+
+td {
+  padding: 0 0 0 1em;
+}
+
+.nomunki {
+  color: #888;
+}
+  </style>
+</head>
+
+<body>
+
+<py:if test="client is None">
+  <h1 class="nomunki">Munki</h1>
+</py:if>
+
+<py:if test="client is not None">
+  <h1>Munki ${report.ManagedInstallVersion}</h1>
+  
+  <table class="client_info">
+    <tbody>
+      <tr>
+        <th>Last Run</th>
+        <td py:content="client.timestamp.strftime('%Y-%m-%d %H:%M')">Last Run</td>
+      </tr>
+      <tr>
+        <th>IP Used</th>
+        <td py:content="client.remote_ip">IP</td>
+      </tr>
+      <py:if test="'MachineInfo' in report">
+        <tr>
+          <th>Name</th>
+          <td>${client.name}</td>
+        </tr>
+        <tr>
+          <th>OS</th>
+          <td>${report.MachineInfo.os_vers} (${report.MachineInfo.arch})</td>
+        </tr>
+      </py:if>
+      <tr>
+        <th>Disk Free</th>
+        <td>${report.AvailableDiskSpace / 1000000} GB</td>
+      </tr>
+      <tr>
+        <th>User</th>
+        <td>${report.ConsoleUser}</td>
+      </tr>
+      <py:if test="'ManifestName' in report">
+        <tr>
+          <th>Manifest</th>
+          <td py:content="report.ManifestName">Manifest name</td>
+        </tr>
+      </py:if>
+      <py:if test="'SystemProfile' in report['MachineInfo']">
+        <?python
+            hwinfo = None
+            netinfo = None
+            for profile in report['MachineInfo'].SystemProfile:
+                if profile._dataType == "SPHardwareDataType":
+                    hwinfo = profile._items[0]
+                elif profile._dataType == "SPNetworkDataType":
+                    netinfo = profile._items[0]
+        ?>
+        <py:if test="hwinfo">
+          <tr>
+            <th>Model</th>
+            <td>
+              <span py:replace="hwinfo.machine_model">Model</span>
+              <span py:replace="hwinfo.cpu_type">CPU</span>
+              <span py:replace="hwinfo.current_processor_speed">MHz</span>
+            </td>
+          </tr>
+          <tr>
+            <th>Serial</th>
+            <td py:content="hwinfo.serial_number">Model</td>
+          </tr>
+        </py:if>
+      </py:if>
+    </tbody>
+  </table>
+
+
+</py:if>
+
+</body>
+</html>
