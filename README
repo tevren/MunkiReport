@@ -1,0 +1,5 @@
+This repo is a fork of http://code.google.com/p/munkireport/
+Main Differences between main branch and this fork:
+1. Clients are idenitfied by their serial number, not mac address. This behavior can be reverted, the methods for mac address filtering still exist
+2. Added columns for division and manifest
+3. manifest ids set in munkireport are picked up by clients on next run.
