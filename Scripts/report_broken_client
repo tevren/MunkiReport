@@ -7,7 +7,7 @@ fi
 MAC=`ifconfig en0 | awk '/ether/ {print $2}'`
 SERIAL=`/usr/sbin/ioreg -l | grep IOPlatformSerialNumber | cut -f 4 -d \"`
 NAME="$(echo `systemsetup -getcomputername | cut -d: -f2-`)"
-SUBMITURL="http://animal.cul.columbia.edu:8444/update"
+SUBMITURL="http://kermit.cul.columbia.edu:8444/update"
 
 
 curl --max-time 5 --silent \

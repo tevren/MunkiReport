@@ -5,7 +5,7 @@ SERIAL=`/usr/sbin/ioreg -l | grep IOPlatformSerialNumber | cut -f 4 -d \"`
 MAC=`ifconfig en0 | awk '/ether/ {print $2}'`
 NAME="$(echo `systemsetup -getcomputername | cut -d: -f2-`)"
 REPORTPATH="/etc/munki/ManagedInstallReport.plist"
-SUBMITURL="http://localhost:8444/update"
+SUBMITURL="http://kermit.cul.columbia.edu:8444/update"
 PLISTBUDDY="/usr/libexec/PlistBuddy"
 
 # Copy the report to a temporary file.
